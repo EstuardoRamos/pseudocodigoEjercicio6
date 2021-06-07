@@ -1,8 +1,8 @@
 Algoritmo pseudocodigoEjercicio6
-	para i=1 hasta 8 Con Paso 1 Hacer
+	para i=1 hasta 100 Con Paso 1 Hacer
 		Escribir "Ingrese edad"
 		Leer edad;
-		Si edad<25 Entonces
+		Si edad<=25 Entonces
 			n=n+1
 			edad=edadN+edad
 			edadN=edad
